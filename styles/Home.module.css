@@ -5,7 +5,8 @@
 .main {
   min-height: 100vh;
   padding: 0 0;
-  background: linear-gradient(180deg, #1D539E 0%, #1D539E 50%, #F9FBFC 50%, #F9FBFC 100%)}
+  background: linear-gradient(180deg, #1D539E 0%, #1D539E 50%, #F9FBFC 50%, #F9FBFC 100%)
+}
 
 
 .center{
@@ -19,4 +20,24 @@
   justify-content: center;
   align-items: center;
   padding-top: 10vh;
+}
+
+@media only screen 
+   and (max-width : 1200px) {
+   /* Styles here */
+
+   .main {
+    min-height: 100vh;
+    padding: 0 0;
+    background: linear-gradient(90deg, #1D539E 0%, #1D539E 50%, #1d539ea0 90%, #1d539ea0 90%)
+  }
+  
+   .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
 }

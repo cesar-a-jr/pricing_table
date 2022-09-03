@@ -133,3 +133,12 @@
     cursor: pointer;
 
 }
+
+@media only screen 
+   and (max-width : 1200px) {
+   /* Styles here */
+   .card{
+    margin-bottom: 25px;
+    margin-top: 25px;
+   }
+}

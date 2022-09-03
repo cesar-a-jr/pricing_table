@@ -23,3 +23,46 @@
     margin: 0;
 
 }
+
+@media only screen 
+   and (max-width : 1200px) {
+   /* Styles here */
+
+   .textos{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    max-width: 60%;
+}
+
+   .textos h2{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    max-width: 80%;
+}
+
+.titulo{
+    max-width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+
+}
+}
+
+
+@media only screen 
+   and (max-width : 700px) {
+   /* Styles here */
+   .textos{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    max-width: 90%;
+   }
+  }
