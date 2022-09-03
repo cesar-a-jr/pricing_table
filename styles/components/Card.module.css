@@ -1,0 +1,123 @@
+.card{
+    background-color: white;
+    width: 350px;
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 1em #828799;
+}
+
+.title{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.title h1{
+    padding: 20px;
+    margin: 0;
+}
+
+.itenswap{
+    height: 175px;
+}
+
+.padding{
+    padding:  0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.padding p{
+    margin: 8px;
+}
+.card h1{
+    font-size: 24px;
+}
+.card h2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 36px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+}
+
+.card h2 p{
+    font-size: 16px;
+    margin: 0;
+    text-align: end;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.card h2 p:last-child{
+    color: #828799;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.card p{
+    color: #828799;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.itens p{
+    margin: 8px;
+}
+
+.margin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1px;
+    background-color: #8287999b;
+    
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px;
+    border-style: solid;
+
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    color: #1d539e;
+    border-color: #1d539e;
+    font-weight: 600;
+    transition: 1s;
+
+
+    
+}
+.button:hover{
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #1d539e;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
